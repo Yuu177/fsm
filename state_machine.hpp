@@ -5,7 +5,7 @@
 
 namespace fsm {
 
-// State 如果不为基本变量需要重载 =
+// State 如果不为基本变量则需要重载 =
 template <typename State, typename Event>
 class StateMachine {
  public:
